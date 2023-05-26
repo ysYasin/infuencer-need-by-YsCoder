@@ -1,0 +1,29 @@
+@media only screen and (max-width:688px) {
+
+    nav,
+    footer,
+    .top-comalies-logo,
+    .populer-collections,
+    .gear {
+        display: none;
+    }
+
+    .thum-sec {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2em;
+    }
+
+    .thumneil-img {
+        grid-row: 2/1;
+        grid-column: 2/1;
+    }
+
+    .title-text {
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 2rem
+    }
+}
