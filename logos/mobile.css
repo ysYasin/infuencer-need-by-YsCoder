@@ -2,7 +2,6 @@
 
     nav,
     footer,
-    .top-comalies-logo,
     .populer-collections,
     .gear {
         display: none;
@@ -17,6 +16,7 @@
     .thumneil-img {
         grid-row: 2/1;
         grid-column: 2/1;
+
     }
 
     .title-text {
@@ -25,5 +25,27 @@
 
     .title {
         font-size: 2rem
+    }
+
+    .button {
+        padding: 1em 3.5em;
+        border-radius: 150px;
+        font-size: 1em;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .top-comalies-logo {
+        width: 100%;
+        padding: 0;
+    }
+
+    .logos {
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-items: center;
     }
 }
