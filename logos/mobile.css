@@ -2,7 +2,6 @@
 
     nav,
     footer,
-    .populer-collections,
     .gear {
         display: none;
     }
@@ -43,9 +42,28 @@
 
     .logos {
         display: flex;
-        gap: 1em;
         flex-wrap: wrap;
-        align-items: start;
-        justify-items: center;
+        gap: 1.5em;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* mobile populer cullection styling */
+    .populer-collections {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .populer-collections h2::after {
+        left: 2.5em;
+        width: 66vw;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+        margin: 0;
     }
 }
