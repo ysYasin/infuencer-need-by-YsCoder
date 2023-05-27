@@ -240,6 +240,11 @@ nav {
     width: 10em;
     text-align: center;
     font-weight: 500;
+    align-items: center;
+}
+
+.gear-button i {
+    padding-left: 0.4em;
 }
 
 /* button hover */

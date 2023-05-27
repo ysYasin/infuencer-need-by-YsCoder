@@ -1,8 +1,6 @@
 @media only screen and (max-width:688px) {
 
-    nav,
-    footer,
-    .gear {
+    nav {
         display: none;
     }
 
@@ -65,5 +63,46 @@
         grid-template-columns: repeat(1, 1fr);
         width: 100vw;
         margin: 0;
+        padding: 0em;
+    }
+
+    /* <!-- gear subscrib section styling --> */
+    .gear {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+        padding: 0;
+        row-gap: 1em;
+    }
+
+    .gear-text {
+        grid-row: 2/1;
+        grid-column: 2/1;
+        padding: 1em;
+        width: 100vw;
+    }
+
+    .gear-text h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .gear-text p {
+        padding-right: 0em;
+    }
+
+    .gear-button {
+        padding: 1em 3em;
+        width: 11em;
+        align-items: center;
+    }
+
+    .gear-img {
+        width: 100vw;
+        justify-items: center;
+        display: grid;
+    }
+
+    footer {
+        width: 100vw;
     }
 }
